@@ -3,24 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wisdom</title>
+    <title>Wisdom Kalu's Portfolio</title>
 </head>
 <body>
+
+    <!-- NAVBAR SECTION -->
+
         <ul>
             <li><a href="#">Wisdom Tochi Kalu</a></li>
             <div class="right">
                 <li><a href="#" >Home</a></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Home</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Coursework</a></li>
+                <li><a href="#">Experience</a></li>
             </div>
         </ul>
-<section>
-    <div>
-        <img src="img/jw.jpg" height="20%" width="100%"
-    </div>
-</section>
 
-    
+        <!--BACKGROUND IMAGE SECTION-->
+
+        <section id="images">
+            <div>
+                <img src="img/jw.jpg" width="100%" height="15%" />
+            </div>
+        </section>
+
+    <!--WRITE UP SECTION-->
+    <section class="write-up">
+        <H3 class="intro">Hi There. My name is Wisdom Tochi Kalu</H3>
+        <p style="text-align: center;">It's a pleasure to have you on my site. Here are a few details about me</p>
+
+        <br>
+        <h3>About</h3>
+        <p>My name is Wisdom. I am a Nigerian and I am passionate bridging the technological gap amongst youths from underserved 
+        communities. I am married and I have a little daughter
+        </p>
+        <br>
+
+        <h3>Education</h3>
+        <p>I am currently studying Computer Science at Ashesi University, Class of 2022</p>
+        <br>
+
+        <h3>Interests</h3>
+        <p>I love playing table tennis, basketball, listening to music, singing, reading, sleeping and comedy</p>
+        <br>
+    </section>
+
+     <!--FOOTER SECTION-->
+    <section class="container">
+        <div class="footer">Copyrignt &copy; 2020 WisdomFromAbove Designs</div>
+        <div class="contact">
+            <a href="https://linkedin.com/in/wisdomkalu" class="contact">LinkedIn</a>
+        </div>
+    </section>
+
+
 <style>
 
 ul {
@@ -42,13 +78,58 @@ li a {
 }
 
 li a:hover {
+    padding: 14px 16px;
     color: white;
-    background-color: green;
+    background-color: black;
+}
+
+li a.active {
+    color: white;
+    background-color: black;
 }
 
 .right {
     float: right;
-    padding-right: 10%;
+    padding-right: 7%;
+}
+
+#images {
+    padding: 0.01px 18px;
+}
+
+.intro {
+    text-align: center;
+}
+
+
+.write-up {
+    border: 1px skyblue;
+    border-style: solid;
+    border-width: 2px;
+    border-color: skyblue;
+   padding: 14px 16px;
+   margin: 14px 16px;
+}
+
+.footer {
+width: 100%;
+background: #333;
+padding: 10px 0;
+color: whitesmoke;
+}
+
+.contact {
+    width: 100%;
+    background: black;
+    padding: 10px 0;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 </style>
