@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wisdom Kalu's Portfolio</title>
@@ -12,10 +13,11 @@
         <ul>
             <li><a href="#">Wisdom Tochi Kalu</a></li>
             <div class="right">
-                <li><a href="#" >Home</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Coursework</a></li>
-                <li><a href="#">Experience</a></li>
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="coursework.html">Coursework</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="projects.html">Projects</a></li>
             </div>
         </ul>
 
@@ -23,14 +25,17 @@
 
         <section id="images">
             <div>
-                <img src="img/jw.jpg" width="100%" height="15%" />
+                <img src="img/ima.jpeg" width="100%" height="15%" />
             </div>
         </section>
 
     <!--WRITE UP SECTION-->
     <section class="write-up">
-        <H3 class="intro">Hi There. My name is Wisdom Tochi Kalu</H3>
-        <p style="text-align: center;">It's a pleasure to have you on my site. Here are a few details about me</p>
+        <div class="grid-container">
+            <div><img src="img/m.jpg" height="10%" width="10%"/></div>
+        </div>
+        <H3 class="intro">Hi There. My name is Wisdom Tochi Kalu</H3></span>
+        <p>It's a pleasure to have you on my site. Here are a few details about me</p>
 
         <br>
         <h3>About</h3>
@@ -50,89 +55,17 @@
 
      <!--FOOTER SECTION-->
     <section class="container">
-        <div class="footer">Copyrignt &copy; 2020 WisdomFromAbove Designs</div>
+        
         <div class="contact">
-            <a href="https://linkedin.com/in/wisdomkalu" class="contact">LinkedIn</a>
+            <H4>Contact Me</H4>
+            <a href="https://linkedin.com/in/wisdomkalu" class="contact">LinkedIn Profile</a>
         </div>
+        <div class="footer">Copyrignt &copy; 2020 WisdomFromAbove Designs</div>
     </section>
 
 
-<style>
+    <!--CSS SECTION-->
 
-ul {
-    list-style-type: none;
-    padding: 14px 14px;
-    margin: 20px;
-    background-color: #333;
-}
-
-li {
-    display: inline;
-    padding: 14px 16px;
-}
-
-li a {
-    list-style-type: none;
-    text-decoration: none;
-    color: white;
-}
-
-li a:hover {
-    padding: 14px 16px;
-    color: white;
-    background-color: black;
-}
-
-li a.active {
-    color: white;
-    background-color: black;
-}
-
-.right {
-    float: right;
-    padding-right: 7%;
-}
-
-#images {
-    padding: 0.01px 18px;
-}
-
-.intro {
-    text-align: center;
-}
-
-
-.write-up {
-    border: 1px skyblue;
-    border-style: solid;
-    border-width: 2px;
-    border-color: skyblue;
-   padding: 14px 16px;
-   margin: 14px 16px;
-}
-
-.footer {
-width: 100%;
-background: #333;
-padding: 10px 0;
-color: whitesmoke;
-}
-
-.contact {
-    width: 100%;
-    background: black;
-    padding: 10px 0;
-    color: whitesmoke;
-    text-decoration: none;
-}
-
-.container {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-}
-
-</style>
 
 
 </body>
