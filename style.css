@@ -71,3 +71,8 @@ display: ruby-base-container;
 .contain {
    padding: 0% 10% 10%;
 }
+
+.active {
+    background-color: #4CAF50;
+    padding: 14px 16px;
+}
