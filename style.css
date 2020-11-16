@@ -1,38 +1,16 @@
 
 
-ul {
-    list-style-type: none;
-    padding: 14px 14px;
-    margin: 20px;
-    background-color: #333;
+/*
+* @Author Wisdom Tochi Kalu
+*/
+
+
+/* since the body comes with a default margin and padding, we need to remove it */
+body {
+    margin: 0;
+    padding: 0;
 }
 
-li {
-    display: inline;
-    padding: 14px 16px;
-}
-
-li a {
-    list-style-type: none;
-    text-decoration: none;
-    color: white;
-}
-
-li a:hover {
-    padding: 14px 16px;
-    color: white;
-    background-color: black;
-}
-
-li a.active {
-    color: white;
-    background-color: black;
-}
-
-.right {
-    float: right;
-    padding-right: 7%;
-}
 
 #images {
     padding: 0.01px 18px;

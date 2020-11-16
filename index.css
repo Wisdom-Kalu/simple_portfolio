@@ -1,0 +1,65 @@
+
+
+.colorness {
+    color: black;
+}
+
+.colorness:hover {
+    color: red;
+}
+
+nav {
+    background-color: #1b1b1b !important;
+}
+
+#banner {
+    background: url("splash.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding-top: 20%;
+}
+
+#jumbo {
+    padding-top: 20px;
+}
+
+.footer {
+    background: #1b1b1b;
+    padding: 10px;
+    margin-top: 5px;
+    color: white;
+    text-align: center;
+}
+
+.about-me {
+    margin-top: 6%;
+}
+
+.Mycontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.element1 {
+    flex: 40%;
+    text-align: center;
+}
+
+.element2 {
+    background-color: blue;
+    flex: 40%;
+}
+
+/* Ignore this. I'll explain later */
+@media only screen and (max-width: 700px) {
+    #centerMe {
+        padding-top: 30%;
+    }
+
+    .about-me {
+        margin-top: 12%;
+    }
+  }
