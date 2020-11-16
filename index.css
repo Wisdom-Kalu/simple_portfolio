@@ -1,5 +1,8 @@
 
-
+body {
+    padding: 0px;
+    margin: 0px;
+}
 .colorness {
     color: black;
 }
@@ -48,11 +51,43 @@ nav {
     text-align: center;
 }
 
-.element2 {
-    background-color: blue;
-    flex: 40%;
+.connect {
+    display: flex;
 }
 
+
+.element2 {
+    flex: 55%;
+}
+
+.next1 {
+    flex: 100%;
+    text-align: left;
+    font-size: 20px;
+}
+
+section .secondContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 30px;
+}
+
+.element4 {
+    flex: 33%;
+}
+
+.element5 {
+    flex: 33%;
+    padding-bottom: 10px;
+}
+
+.element6 {
+    flex: 33%;
+}
+ section #footer {
+     margin-top: 20px;
+ }
 /* Ignore this. I'll explain later */
 @media only screen and (max-width: 700px) {
     #centerMe {
@@ -61,5 +96,21 @@ nav {
 
     .about-me {
         margin-top: 12%;
+    }
+
+    .element1 {
+        flex: 50%;
+        text-align: center;
+    }
+    
+    .element2 {
+        flex: 50%;
+    }
+    
+  }
+
+  @media only screen and (max-width: 295px) {
+    .about-me {
+        padding-top: 70px;
     }
   }
