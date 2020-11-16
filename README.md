@@ -9,6 +9,8 @@ https://wisdomfromabove.github.io/lab-1/index.html
 ## Contents
 
 This repository contains five HTML files, one CSS file and a script for gathering the basic configuration of the user from bash.
+This will be used as my portfolio site in the interim.
+The website is in no way efficient as I built it with stateless html
 
 
 ## Using the file
