@@ -88,6 +88,17 @@ section .secondContainer {
  section #footer {
      margin-top: 20px;
  }
+
+.navbar {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: rgb(13,13,69);
+    height: 80px;
+}
+
+.navbar a:hover {
+    border-bottom: 3px solid rgb(13,13,69) !important;
+}
+
 /* Ignore this. I'll explain later */
 @media only screen and (max-width: 700px) {
     #centerMe {
