@@ -49,6 +49,7 @@ nav {
 .element1 {
     flex: 40%;
     text-align: center;
+    padding-top: 15px;
 }
 
 .connect {
@@ -120,11 +121,8 @@ section .secondContainer {
     
   }
 
-  @media only screen and (max-width: 295px) {
+  @media only screen and (max-width: 545px) {
     .about-me {
-        padding-top: 70px;
-    }
-    img {
-        padding-top: 10px;
+        padding-top: 90px;
     }
   }
