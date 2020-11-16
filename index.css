@@ -124,4 +124,7 @@ section .secondContainer {
     .about-me {
         padding-top: 70px;
     }
+    img {
+        padding-top: 10px;
+    }
   }
