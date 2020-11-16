@@ -118,6 +118,11 @@ section .secondContainer {
     .element2 {
         flex: 50%;
     }
+
+    .navbar a:hover {
+        border-bottom: none !important;
+    }
+    
     
   }
 
