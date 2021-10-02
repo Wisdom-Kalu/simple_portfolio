@@ -4,7 +4,7 @@
 
 This file is the template for the first lab in Ashesi Web Development 2020.
 the link to my website is:
-https://wisdomfromabove.github.io/lab-1/index.html
+https://wisdomfromabove.github.io/simple_portfolio/
 
 ## Contents
 
