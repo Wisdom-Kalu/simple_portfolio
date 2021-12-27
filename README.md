@@ -1,5 +1,3 @@
-# Lab-1 Git Repository Seed
-
 # Author: Wisdom Tochi Kalu
 
 This file is the template for my simple portfolio/resume
