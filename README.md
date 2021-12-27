@@ -1,4 +1,4 @@
-# Author: Wisdom Tochi Kalu
+# Author: Wisdom Kalu
 
 This file is the template for my simple portfolio/resume
 the link to my website is:
