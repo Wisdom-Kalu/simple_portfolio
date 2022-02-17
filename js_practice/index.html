@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script type="text/javascript" src="index.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<body>
+
+	<h1 id="app"></h1>
+	<form id="addForm" class="form-box" method="post" name="myForm" onsubmit="return validateForm()">
+		<div class="field-group">
+			<label for="first">First</label>
+			<input type="text" id="first" name="f_name"  placeholder="First Name" id="danger">
+		</div>
+			<div class="field-group">
+				<label for="last">Last</label>
+				<input type="text" id="last" name="l_name" placeholder="Last Name">
+		</div>
+				<div class="field-group">
+					<label for "email">Email</label>
+					<input type="email" id="email" name="email"  placeholder="studentname@ahesi.edu.gh">
+		</div>
+					<div class="radio-box">
+						<p>Gender</p>
+						<input type="radio" id="male" name="gender" value="Male">
+						<label for="male">Male</label><br>
+						<input type="radio" id="female" name="gender" value="Female">
+						<label for="female">Female</label><br>
+		</div>
+						<button id="addStudentSubmit" type="submit" value="add">Add</button>
+						<div class="radio-box" id="form-errors" style="color: black;"></div>
+	</form>
+
+<script>
+		// Use DOM to insert text in an element
+		const appDiv = document.getElementById('app');
+		appDiv.innerHTML = `<h1>Add User</h1>`;
+		const form = document.getElementById("addForm");
+		// write a function to connect to the listner
+
+		function onSubmit(event) {
+			event.preventDefault(); 
+			const first= form.elements["f_name"].value;
+			const last = form.elements["l_name"].value;
+			const email = form.elements['email'].value;
+			const gender = form.elements['gender'].value;
+			window.alert(`hey ${first} ${last}  you submitted a form. Your email address is ${email} and your gender is ${gender}`);
+			console.log(`hey ${first} ${last}  you submitted a form. Your email address is ${email} and your gender is ${gender}`);
+		}
+
+		function validateForm() {
+			var x = document.forms["myForm"]["f_name"].value;
+			var y = document.forms["myForm"]["l_name"].value;
+			var z = document.forms["myForm"]["email"].value;
+			if (x == " " || y == " " || z == "" || a == " ") {
+				document.getElementById('danger').innerHTML = `<h4 style='border: 1px solid red'> </h4>`;
+				document.getElementById("form-errors").innerHTML = "ERROR! Names and email cannot be empty";
+				return false;
+			} else {
+				// attach function to the form "submit" event.
+				form.addEventListener('submit', onSubmit);
+				return true;
+			}
+		}
+
+
+
+
+		
+		
+</script>
+
+</body>
+</html>
+
+

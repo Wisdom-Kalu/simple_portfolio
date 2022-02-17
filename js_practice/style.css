@@ -1,0 +1,131 @@
+:root {
+  --layout-bg: rgb(192, 155, 116);
+  --layout-text: rgb(197, 103, 40);
+  --content-bg: rgb(170, 195, 236);
+  --content-text: rgb(197, 103, 40);
+  --action-bg: red;
+  --action-text: white;
+  --error-text: yellow;
+}
+html {
+  font: 1em sans-serif;
+}
+.form-box {
+  background-color: var(--content-bg);
+  color: var(--content-text);
+  width: 80%;
+  border: 5px solid rgb(192, 155, 116);
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: left;
+}
+.form-box .field-group {
+  flex: 0 1 75%;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 2%;
+  align-items: flex-start;
+}
+
+.form-box .field-group input {
+  padding: 5px 6px;
+  flex: 5 2;
+  /* width: 30em; */
+  margin: 1%;
+}
+.form-box .field-group label {
+  font-weight: bold;
+  flex: 3 1;
+  padding: 5px 6px;
+  margin: 1%;
+}
+.form-box .field-group .short-column {
+  display: flex;
+  flex: 0 1 12%;
+  flex-flow: column;
+  align-items: center;
+}
+.form-box .field-group .short-column label {
+  flex: 0 1 18%;
+  padding: 0;
+  justify-content: center;
+  align-content: space-around;
+}
+.form-box .field-group .short-column input[type="checkbox"]:focus {
+  flex: 0 1 20%;
+  padding: 0;
+  justify-content: center;
+  align-content: space-around;
+  color: red;
+}
+
+.form-box .field-group .short-column input[type="checkbox"] {
+  flex: 0 1 20%;
+  padding: 0;
+  justify-content: center;
+  color: yellow;
+}
+
+.form-box button {
+  background-color: red;
+  flex: 3 1;
+  align-self: center;
+  width: 10rem;
+  color: white;
+  padding: 5px 6px;
+  text-align: center;
+  display: inline-block;
+  font-size: 1em;
+}
+.form-box button:disabled {
+  background-color: gray;
+}
+.form-box input {
+  width: 30%;
+  padding: 5px 6px;
+  margin: 1%;
+}
+.form-box label {
+  width: 10%;
+  font-weight: bold;
+  padding: 5px 6px;
+  margin: 1%;
+}
+.form-box .hidden {
+  visibility: hidden;
+}
+.form-box .radio-box {
+  align-self: center;
+  flex: 5 1;
+  background-color: var(--content-bg);
+  color: var(--content-text);
+  width: 75%;
+  border: 2px solid rgb(192, 155, 116);
+  margin: 1%;
+  padding: 0%;
+}
+.form-box .radio-box p {
+  color: var(--content-text);
+  font-weight: bold;
+  width: 100%;
+  margin: 1%;
+  padding: 0%;
+}
+.form-box .radio-box input {
+  width: 10%;
+}
+.form-box .radio-box input + label {
+  width: 30%;
+  font-weight: normal;
+}
+.form-box .error-msg {
+  border: 1px solid var(--error-text);
+  color: var(--error-text);
+  background-color: var(--action-bg);
+}
+.form-box .info-msg {
+  color: var(--layout-text);
+  font-size: 0.25em;
+}
