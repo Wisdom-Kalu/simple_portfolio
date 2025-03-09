@@ -74,13 +74,21 @@ section .secondContainer {
     margin-bottom: 30px;
 }
 
+/* Ensures all images have the same height while maintaining aspect ratio */
+.secondContainer img {
+    width: 100%;  /* Makes sure images scale responsively */
+    height: 500px; /* Set a fixed height */
+    object-fit: cover; /* Ensures images fit without distortion */
+    border-radius: 10px; /* Optional: Gives images rounded corners for a modern look */
+}
+
+
 .element4 {
     flex: 33%;
 }
 
 .element5 {
     flex: 33%;
-    padding-bottom: 10px;
 }
 
 .element6 {
